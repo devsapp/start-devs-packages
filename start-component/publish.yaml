@@ -1,0 +1,10 @@
+Type: Component
+Name: component-demo
+Provider:
+  - 其它
+Version: 0.1.0
+Description: 初始化基于 ncc 编译的 component 模板
+HomePage: https://www.serverless-devs.com
+Tags: #标签详情
+  - 模板
+Category: 其它
