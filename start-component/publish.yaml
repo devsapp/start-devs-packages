@@ -1,5 +1,5 @@
-Type: Component
-Name: component-demo
+Type: Application
+Name: start-component
 Provider:
   - 其它
 Version: 0.1.0
