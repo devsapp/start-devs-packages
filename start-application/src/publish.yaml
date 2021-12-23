@@ -1,16 +1,17 @@
+# 规范文档参考: https://github.com/Serverless-Devs/Serverless-Devs/blob/master/spec/zh/0.0.1/serverless_package_model/3.package_model.md#%E5%BA%94%E7%94%A8%E6%A8%A1%E5%9E%8B%E5%85%83%E6%95%B0%E6%8D%AE
 Type: Application
 Name: 名称
 Provider:
-  - 云厂商名称 # 阿里云, 百度智能云, 华为云, 腾讯云, AWS, Azure, Google Cloud, 其它
+  - 云厂商名称 
 Version: 版本，例如0.0.1
 Description: 简短的描述/介绍
 HomePage: 项目首页地址
 Tags: #标签详情
   - 部署函数
   - 部署组件
-Category: 分类 # 基础云服务, Web框架, 全栈应用, 人工智能, 音视频处理, 图文处理, 监控告警, 大数据, IoT, 新手入门, 其它
+Category: 分类 # 基础云服务/Web框架/Web应用/人工智能/音视频处理/图文处理/监控告警/大数据/IoT/新手入门/其他
 Service: # 使用的服务
-  - Name: 服务名 # 函数计算, 容器服务, 镜像服务, 消息队列, 工作流, CDN, 对象存储, 表格存储, MNS, 日志服务, API网关, 数据库, 解析服务, 云应用, 其它
+  服务名: # 函数计算/容器服务/镜像服务/消息队列/工作流/CDN/对象存储/表格存储/MNS/日志服务/API网关/数据库/解析服务/云应用/其他
     # Runtime: Python 3.6 如果服务是函数，还需要增加Runtime
     Authorities: #权限描述
       - 创建函数 # 所需要的权限
