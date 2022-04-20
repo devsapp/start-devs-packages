@@ -2,7 +2,7 @@
 
 <p align="center"><b> 中文 | <a href="./readme_en.md"> English </a>  </b></p>
 
-> Serverless Devs 应用开发需要严格遵守 [Serverless Package Model](https://github.com/Serverless-Devs/Serverless-Devs/tree/master/spec/zh/0.0.2/serverless_package_model/readme.md) 中的 [插件模型规范](https://github.com/Serverless-Devs/Serverless-Devs/tree/master/spec/zh/0.0.2/serverless_package_model/3.package_model.md#插件模型规范)。在[插件模型规范](https://github.com/Serverless-Devs/Serverless-Devs/tree/master/spec/zh/0.0.2/serverless_package_model/3.package_model.md#插件模型规范)中有关于[插件模型元数据](https://github.com/Serverless-Devs/Serverless-Devs/tree/master/spec/zh/0.0.2/serverless_package_model/3.package_model.md#插件模型元数据)的说明。
+> Serverless Devs 应用开发需要严格遵守 [Serverless Package Model](https://github.com/Serverless-Devs/Serverless-Devs/tree/master/spec/zh/0.0.2/serverless_package_model/readme.md) 中的 [插件模型规范](https://github.com/Serverless-Devs/Serverless-Devs/tree/master/spec/zh/0.0.2/serverless_package_model/package_model.md#插件模型规范)。在[插件模型规范](https://github.com/Serverless-Devs/Serverless-Devs/tree/master/spec/zh/0.0.2/serverless_package_model/package_model.md#插件模型规范)中有关于[插件模型元数据](https://github.com/Serverless-Devs/Serverless-Devs/tree/master/spec/zh/0.0.2/serverless_package_model/package_model.md#插件模型元数据)的说明。
 
 Serverless Devs的组件开发案例已经被集成到Serverless Devs命令行工具中，通过对Serverless Devs的命令行工具，可以进行空白应用项目的初始化，开发者只需要执行`s init`即可看到：
 
