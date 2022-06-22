@@ -1,42 +1,5 @@
-import { Logger } from "@serverless-devs/core";
+import { Logger } from '@serverless-devs/core';
 
-type LogColor =
-  | "black"
-  | "red"
-  | "green"
-  | "yellow"
-  | "blue"
-  | "magenta"
-  | "cyan"
-  | "white"
-  | "whiteBright"
-  | "gray";
+const logger = new Logger('START_COMPONENT');
 
-export default class ComponentLogger {
-  static CONTENT = "COMPONENT";
-  static setContent(content) {
-    ComponentLogger.CONTENT = content;
-  }
-  static log(m, color?: LogColor) {
-    Logger.log(m, color);
-  }
-  static info(m) {
-    Logger.info(ComponentLogger.CONTENT, m);
-  }
-
-  static debug(m) {
-    Logger.debug(ComponentLogger.CONTENT, m);
-  }
-
-  static error(m) {
-    Logger.error(ComponentLogger.CONTENT, m);
-  }
-
-  static warning(m) {
-    Logger.warn(ComponentLogger.CONTENT, m);
-  }
-
-  static success(m) {
-    Logger.log(m, "green");
-  }
-}
+export default logger;
