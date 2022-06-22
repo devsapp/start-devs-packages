@@ -2,7 +2,7 @@ Type: Application
 Name: start-component
 Provider:
   - 其它
-Version: 0.1.5
+Version: 0.1.6
 Description: Serverless Devs 组件开发模板
 HomePage: https://www.serverless-devs.com
 Tags: #标签详情
