@@ -28,9 +28,6 @@ Parameters:
   additionalProperties: false # 不允许增加其他属性
   required: # 必填项
     - region
-    - serviceName
-    - functionName
-    - acrRegistry
   properties:
     region:
       title: 地域
