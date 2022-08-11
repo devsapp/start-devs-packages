@@ -6,7 +6,7 @@ Type: Application
 Name: start-plugin
 Provider:
   - 其它
-Version: 0.0.3
+Version: 0.0.4
 Description: Serverless Devs 插件开发模板
 HomePage: https://www.serverless-devs.com
 Tags: #标签详情
